@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #397673;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 110px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #E3C199;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #AE201F;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero {
+    width: 100%;
+}
+
+#hero img {
+    width: 100%;
+}
